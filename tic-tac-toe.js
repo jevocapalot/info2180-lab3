@@ -1,8 +1,10 @@
-
+// tic-tac-toe.js
 document.addEventListener('DOMContentLoaded', () => {
+    // Get the board
     const board = document.getElementById('board');
     const statusDiv = document.getElementById('status');
     const newGameBtn = document.querySelector('.btn');
+    // Get all the divs inside the board (the 9 squares)
     const squares = Array.from(board.querySelectorAll('div'));
   
     // Add square class to each cell
